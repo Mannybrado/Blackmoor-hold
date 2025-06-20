@@ -40,6 +40,17 @@
 	body_parts_covered = EYES
 	anvilrepair = /datum/skill/craft/armorsmithing
 
+/obj/item/clothing/mask/rogue/spectacles/sunglasses
+	name = "black spectacles"
+	icon_state = "sunglasses"
+	break_sound = "glassbreak"
+	attacked_sound = 'sound/combat/hits/onglass/glasshit.ogg'
+	max_integrity = 20
+	integrity_failure = 0.5
+	resistance_flags = FIRE_PROOF
+	body_parts_covered = EYES
+	anvilrepair = /datum/skill/craft/armorsmithing
+
 /obj/item/clothing/mask/rogue/spectacles/Initialize()
 	. = ..()
 	AddComponent(/datum/component/spill, null, 'sound/blank.ogg')

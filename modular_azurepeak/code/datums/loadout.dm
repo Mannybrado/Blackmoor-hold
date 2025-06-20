@@ -329,6 +329,10 @@ GLOBAL_LIST_EMPTY(loadout_items)
 	name = "Spectacles"
 	path = /obj/item/clothing/mask/rogue/spectacles
 
+/datum/loadout_item/sunglasses
+	name = "Black Spectacles"
+	path = /obj/item/clothing/mask/rogue/spectacles/sunglasses
+
 /datum/loadout_item/fingerless
 	name = "Fingerless Gloves"
 	path = /obj/item/clothing/gloves/roguetown/fingerless
